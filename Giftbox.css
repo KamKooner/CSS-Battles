@@ -1,0 +1,16 @@
+<div class='squares square1'></div>
+<div class='squares square2'></div>
+<div class='squares square3'></div>
+<div class='squares square4'></div>
+<div class='ribbon ribbon-left'></div>
+<div class='ribbon ribbon-right'></div>
+<style>
+  body{background:#AC474B}
+  .ribbon{position:fixed;width:20;height:20;top:50;border:10px solid white;border-top-right-radius:20px;border-top-left-radius:20px}
+  .ribbon-left{left:165px;border-bottom-left-radius:20px}
+  .ribbon-right{left:195px;border-bottom-right-radius:20px}
+  .square1{left:210;top:190}
+   .square2{left:210;top:110}
+   .square3{left:32.5%;top:110}
+   .square4{left:32.5%;top:63.4%}
+  .squares{width:60;height:60;background:white;position:fixed}
