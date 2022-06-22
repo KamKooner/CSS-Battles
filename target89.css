@@ -1,0 +1,29 @@
+ body{background-color: #191919}
+  .circle{
+    position:fixed;
+    left: 25%;
+    top: 16.7%;
+    width: 200px;
+    height: 200px;
+    background: #F9E492;
+    border-bottom-right-radius:100px;
+    border-bottom-left-radius:100px;
+    border-top-right-radius:100px;
+    border-top-left-radius:100px;
+  }
+  :before, :after{
+    content: '';
+    position: absolute;
+    width: 200; height: 200;
+    transform: rotate(45deg);
+    top: 75.2%
+  }
+  .circle:before{
+    background: #4F77FF
+  }
+  .circle:after{
+    background: #191919;
+    clip-path: ellipse(100px 100px at -3% -3%)
+  }
+  
+</style>
