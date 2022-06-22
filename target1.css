@@ -1,0 +1,10 @@
+<div class='square'></div>
+<style>
+  body{background:#5d3a3a}
+  .square{
+    background:#b5e0ba;
+    width: 200px;
+    height: 200px;
+    margin: -8px -8px;
+  }
+</style>
